@@ -33,7 +33,7 @@ export default function LoginScreen({ navigation }) {
       />
       <Button title="Login" onPress={handleLogin} />
       <View style={{ marginTop: 12 }}>
-        <Button title="Sign Up" onPress={handleLogin} />
+        <Button title="Sign Up" onPress={() => navigation.navigate("SignUp")} />
       </View>
     </View>
   );
