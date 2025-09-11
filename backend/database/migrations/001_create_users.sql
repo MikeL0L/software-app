@@ -1,0 +1,11 @@
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    user_name VARCHAR(100) NOT NULL,
+    user_password VARCHAR(255) NOT NULL,
+    user_email VARCHAR(150) UNIQUE NOT NULL,
+    user_contacts VARCHAR(50),
+    username VARCHAR(100) UNIQUE NOT NULL
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+);

@@ -1,0 +1,11 @@
+
+CREATE TABLE stores (
+    id SERIAL PRIMARY KEY,
+    store_name VARCHAR(100) NOT NULL,
+    store_password VARCHAR(255) NOT NULL,
+    store_email VARCHAR(150) UNIQUE NOT NULL,
+    store_contacts VARCHAR(50),
+    username VARCHAR(100) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

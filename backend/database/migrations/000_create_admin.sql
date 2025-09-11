@@ -1,0 +1,11 @@
+
+CREATE TABLE admin (
+    id SERIAL PRIMARY KEY,
+    admin_name VARCHAR(100) NOT NULL,
+    admin_password VARCHAR(255) NOT NULL,
+    admin_email VARCHAR(150) UNIQUE NOT NULL,
+    admin_contacts VARCHAR(50),
+    username VARCHAR(100) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
