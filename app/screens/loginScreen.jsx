@@ -7,12 +7,7 @@ export default function LoginScreen({ navigation }) {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    // In real apps, you should validate
-    if (username && password) {
-      navigation.replace("Home", { user: username });
-    } else {
-      alert("Please enter username and password");
-    }
+    navigation.replace("Home");
   };
 
   return (
