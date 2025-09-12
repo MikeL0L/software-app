@@ -1,4 +1,5 @@
 // screens/LoginScreen.jsx
+//too much voodoo for our purposes
 import React, { useState } from "react";
 import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 
