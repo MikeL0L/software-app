@@ -1,5 +1,5 @@
 import React from "react";
-//im gonna kill myself
+//i wanna die
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView } from "react-native";
 
 // Reusable ExploreCard component
